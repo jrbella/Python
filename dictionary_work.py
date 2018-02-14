@@ -22,7 +22,7 @@ cities  = [
         'location': 'Mexico'
     }
 ]
-
-my_grade_avg = (sum(my_grades['grades']))/len(my_grades['grades'])
+grades = my_grades['grades']
+my_grade_avg = sum(grades)/len(grades)
 
 print(my_grade_avg)
