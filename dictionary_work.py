@@ -24,9 +24,7 @@ cities  = [
 ]
 
 def avg_of_grades():
-    
     grades = my_grades['grades']
-    my_grade_avg = sum(grades)/len(grades)
-    print(my_grade_avg)
+    return sum(grades)/len(grades)
     
 avg_of_grades()
