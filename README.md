@@ -11,3 +11,5 @@ Welcome to my Python project on Cloud9 IDE!
 
 
 This is still a work in progress updates weekly
+
+Throw away repo, just exercises to help get my geek on
