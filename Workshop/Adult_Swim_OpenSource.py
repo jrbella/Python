@@ -3,7 +3,7 @@ import math
 #find perfect root function  ---completed
 #find imperfect root function  --completed
 #find the square root of x --completed
-x = 970225
+x = 970224
 
 def find_p_sqr_root(x):
     ans = 0
@@ -11,9 +11,10 @@ def find_p_sqr_root(x):
         while ans * ans < x:
             ans = ans + 1
         if ans * ans != x:
-            print x, ' is not a perfect square'
+            print x, 'is not a perfect square'
         else:
-            print ans
+            print x, 'has a perfect square of {}'.format(ans)
+            return ans
     else:
         print x, 'is a negative number'
           
@@ -42,9 +43,12 @@ def test_roots(x):
     ans = result * result
     #should give x back
     if(ans == x):
-        print 'test has passed'
+        #print 'test has passed'
+        a_continue = 0
     else:
         print 'test has failed'
+    p_squar_test = find_p_sqr_root(x)
+    
         
 test_roots(x)
 #call the perfect square function on our test ON FRIDAY
