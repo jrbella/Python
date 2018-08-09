@@ -41,7 +41,7 @@ def find_sqr_root(x):
             result = ((x/ans) + ans)/2
             ans = result
         print ans
-        return ans
+      
             
             
             
