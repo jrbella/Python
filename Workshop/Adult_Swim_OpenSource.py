@@ -1,13 +1,8 @@
 import math
 #Linear Complexity
-#Mowing the lawn can be thought of as a problem with linear complexity. Mowing an area that is double the size of the original takes twice as long.
-
-
 #find perfect root function  ---completed
-
 #find imperfect root function  --completed
-
-#find the square root of x
+#find the square root of x --completed
 x = 970225
 
 def find_p_sqr_root(x):
@@ -22,9 +17,6 @@ def find_p_sqr_root(x):
     else:
         print x, 'is a negative number'
           
-        
-    
-
 def find_sqr_root(x):
     ans = 0
     if x >= 0:
@@ -41,15 +33,7 @@ def find_sqr_root(x):
             result = ((x/ans) + ans)/2
             ans = result
         print ans
-      
-            
-            
-            
-           
-    
-        
-
-#test math floor
+        return ans
 
 def test_roots(x):
     #gives us the square root
@@ -62,8 +46,5 @@ def test_roots(x):
     else:
         print 'test has failed'
         
-
-
 test_roots(x)
-    
-#call the perfect square function on our test
+#call the perfect square function on our test ON FRIDAY
