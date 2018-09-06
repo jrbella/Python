@@ -3,7 +3,7 @@ import math
 #find perfect root function  ---completed
 #find imperfect root function  --completed
 #find the square root of x --completed
-x = 970225
+x = 97
 
 def find_p_sqr_root(x):
     ans = 0
