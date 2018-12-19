@@ -44,6 +44,7 @@ message = text_c
 
 for i in range(len(message)):
     chunk = message[i:i+12]
+    print chunk
     if isPhoneNumber(chunk):
         print('Phone number found ' + chunk)
 print('Done')
